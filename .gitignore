@@ -1,0 +1,54 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# エディタ
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / ツール類
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.cache/
+dist/
+build/
+
+# ローカル設定・秘密情報
+.env
+.env.*
+*.local
+
+# 書き出し・一時ファイル
+out/
+output/
+export/
+exports/
+recordings/
+frames/
+*.log
+*.tmp
+*.bak
+
+# 書き出した動画・重いメディア（必要なら個別に -f で追加）
+*.mov
+*.mp4
+*.webm
+*.gif.tmp
+
+# Processing (Java版) のビルド成果物
+application.linux*/
+application.macosx*/
+application.windows*/
+*.class
